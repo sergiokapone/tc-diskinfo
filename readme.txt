@@ -1,4 +1,4 @@
-DiskInfo 1.4.6 - Lister plugin for Total Commander (32 and 64 bit)
+DiskInfo 1.4.7 - Lister plugin for Total Commander (32 and 64 bit)
 =================================================================
 
 Detailed disk information plus a DirSizeCalc-style space analyzer with an
@@ -62,6 +62,10 @@ SETTINGS
   file is read on every open.
 
 CHANGES
+  1.4.7
+  [+] Text view: the folder list uses the same aligned columns as the tables below it (percent, size, files or
+      date); the name column follows the window width in all tables.
+
   1.4.6
   [+] The scrollbar is drawn by the plugin: a thin rounded thumb in the theme colours (drag it, click the empty
       part to page; wheel and keys as before).
