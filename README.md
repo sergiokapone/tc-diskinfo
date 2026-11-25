@@ -199,3 +199,7 @@ Not in the old plugins: volume and device information, NVMe health, duplicates, 
 
 - Sizes are logical file sizes unless `SizeOnDisk=1`. Symlinks and junctions are not followed.
 - Closed source; downloads, issues and questions: <https://github.com/sergiokapone/tc-diskinfo>.
+
+## Support
+
+If DiskInfo saves you time, you can support the work: https://send.monobank.ua/jar/7EiyaxfeWZ (also the Sponsor button on this repository page).
