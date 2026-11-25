@@ -150,4 +150,4 @@ NOTES
   - Only system DLLs are used (kernel32, user32, gdi32, mpr, msvcrt).
   - Sizes are logical file sizes (not size on disk). Symlinks and junctions
     are not followed.
-  - Closed source; downloads and issues: https://github.com/sergiokapone/tc-diskinfo. MIT license.
+  - Closed source; downloads and issues: https://github.com/sergiokapone/tc-diskinfo. Freeware.

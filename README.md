@@ -4,7 +4,7 @@
 
 Lister plugin for **Total Commander** (32 and 64 bit): detailed disk information plus a
 DirSizeCalc-style space analyzer with an interactive treemap. Languages: English, Russian, Ukrainian.
-Dark and light theme, graphic and text view. Only system DLLs are used. MIT license.
+Dark and light theme, graphic and text view. Only system DLLs are used. Freeware.
 
 It is a replacement for the Lister plugins **DirSizeCalc Charts** and **VisualDirSize**: the same Ctrl+Q folder
 analysis (see [what they had and where it is here](#replaces-dirsizecalc-charts-and-visualdirsize)), plus

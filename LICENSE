@@ -1,21 +1,32 @@
-MIT License
+DiskInfo - Freeware License
 
-Copyright (c) 2026 sergiokapone
+Copyright (c) 2026 sergiokapone. All rights reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+DiskInfo (the files DiskInfo.wlx and DiskInfo.wlx64, their documentation and
+the example settings file) is FREEWARE. The source code is not published.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+You MAY:
+  - use DiskInfo free of charge, for private, educational and commercial
+    purposes, on any number of computers;
+  - copy and distribute the original, unmodified archive (DiskInfo-x.y.z.zip)
+    free of charge, provided that this license file stays in it. Putting it on
+    software archives, mirrors and plugin collections is welcome.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+You MAY NOT:
+  - sell DiskInfo or charge for its distribution (a reasonable media or
+    download fee of a software archive is fine);
+  - modify, decompile, disassemble, reverse engineer or otherwise try to
+    extract the source code of DiskInfo, or remove or change its copyright
+    notices;
+  - present DiskInfo as your own work.
+
+NO WARRANTY. DiskInfo is provided "AS IS", without warranty of any kind,
+express or implied, including but not limited to merchantability, fitness for
+a particular purpose and non-infringement. The author is not liable for any
+damage or loss of data arising from the use of, or the inability to use,
+DiskInfo. You use it at your own risk. DiskInfo only reads information and
+moves a file to the Recycle Bin when you explicitly ask for it (Delete).
+
+The author keeps all rights not expressly granted here.
+
+Bugs and questions: https://github.com/sergiokapone/tc-diskinfo
