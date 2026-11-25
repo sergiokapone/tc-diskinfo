@@ -1,0 +1,22 @@
+[DiskInfo]
+; Language: auto (system UI language) | uk | ru | en.  In the viewer: key L cycles languages.
+Language=auto
+; View: graphic (default) | text (monospace console-style view with block progress bars).  In the viewer: key V toggles.
+View=graphic
+; Theme: auto (default) = follows Total Commander: dark when the background of its colour scheme is dark (wincmd.ini [Colors] / [ColorsDark], else DarkMode=) | dark | light.  In the viewer: key T toggles dark / light.
+; Keys L, V and T save the new value here, so the choice is kept; the file is read on every open.
+Theme=auto
+; SizeOnDisk: 0 (logical sizes, default) | 1 (sizes rounded up to the cluster = "size on disk").  In the viewer: key D (rescans).
+SizeOnDisk=0
+; Exclude: folder names the scan skips, separated by ; or ,  (case-insensitive, any depth).
+;Exclude=.git;node_modules
+; DupMinKB: duplicate search ignores files smaller than this many KB (default 1024 = 1 MB).
+DupMinKB=1024
+; Sort: size (default) | name | type | date. Folders stay first except by size; files by A-Z, extension or newest first.  In the viewer: key O or the sorting in the status bar.
+Sort=size
+; Filter: file masks (* and ?) separated by ; - only these files are counted. Empty = all files.  In the viewer: key M or the Filter button.
+;Filter=*.jpg;*.png
+; FilterExclude: 1 = count everything EXCEPT the files that match Filter.
+FilterExclude=0
+; AutoUpdate: 0 (default) a banner says that the folder changed, F5 rescans | 1 rescan by itself a few seconds after the changes stop.
+AutoUpdate=0
