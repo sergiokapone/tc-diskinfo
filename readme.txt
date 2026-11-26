@@ -65,6 +65,7 @@ SETTINGS
 CHANGES
   1.4.9
   [+] Version information in the DLLs (Properties > Details), for plugin managers.
+  [+] Smooth (anti-aliased) shapes: donut chart, rounded bars, buttons, tiles, the (i) icon (GDI+).
 
   1.4.8
   [+] The status bar is on every tab; the graphic / text switch moved there from the tab bar.

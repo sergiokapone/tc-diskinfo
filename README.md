@@ -132,6 +132,7 @@ Not in the old plugins: volume and device information, NVMe health, duplicates, 
 
 ### 1.4.9
 - **+** Version information in the DLLs (Properties > Details: version, author, copyright, description), for plugin managers
+- **+** Smooth (anti-aliased) shapes: the donut chart, rounded bars, buttons and tiles, the (i) icon (GDI+, part of Windows)
 
 ### 1.4.8
 - **+** The status bar is on every tab; the graphic / text switch moved there from the tab bar
