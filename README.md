@@ -1,4 +1,4 @@
-# DiskInfo 1.4.7
+# DiskInfo 1.4.8
 
 **English** · [Українська](README_UA.md)
 
@@ -11,7 +11,7 @@ analysis (see [what they had and where it is here](#replaces-dirsizecalc-charts-
 disk/volume/device information, duplicates, snapshots and HTML/TXT reports. It does **not** replace the *DirSizeCalc*
 content plugin (WDX) that adds folder-size columns to the file panel: that is a different kind of plugin.
 
-**Download:** [Releases](https://github.com/sergiokapone/tc-diskinfo/releases) → `DiskInfo-1.4.7.zip`
+**Download:** [Releases](https://github.com/sergiokapone/tc-diskinfo/releases) → `DiskInfo-1.4.8.zip`
 (open it in Total Commander, press Enter, confirm — TC installs it).
 
 ![Analysis: treemap](screenshots/treemap-en.png)
@@ -46,12 +46,13 @@ content plugin (WDX) that adds folder-size columns to the file panel: that is a 
 
 | Key | Action |
 |---|---|
-| `V` | graphic / text view |
+| `V` | graphic / text view (also the "View" item in the status bar) |
+| `I` | show / hide the key hints and help lines (also the (i) icon at the top right) |
 | `S` / `A` | scan the folder / the whole drive |
 | `U` | find duplicates |
 | `Z` | save a snapshot |
 | `H` / `Shift+H` | HTML report / Markdown report (the TXT report is in the right-click menu) |
-| `O` | sort the folder list: size / name / type / date (also a click on the sorting in the status bar) |
+| `O` | sort the folder list: size / name / type / date (also the ▾ menu of the list heading or the sorting in the status bar) |
 | `M` | file filter (masks) |
 | `Delete` | move the list row under the mouse to the Recycle Bin |
 | `D` | sizes as "size on disk" (rounded up to the cluster), rescans |
@@ -67,7 +68,7 @@ Click on a path copies it; **Shift+click** shows the file in Explorer. In the fo
 
 ## Install
 
-1. Open `DiskInfo-1.4.7.zip` in Total Commander (Enter) and confirm, **or** Configuration → Options →
+1. Open `DiskInfo-1.4.8.zip` in Total Commander (Enter) and confirm, **or** Configuration → Options →
    Plugins → Lister plugins (WLX) → Add, pick `DiskInfo.wlx64`.
 2. To make it open on folders in Quick View, set its detect string to `EXT=""` and keep it above other
    plugins that also use `EXT=""` (e.g. VisualDirSize). The plugin refuses plain files unless you force it
@@ -76,7 +77,7 @@ Click on a path copies it; **Shift+click** shows the file in Explorer. In the fo
 ## Settings
 
 `DiskInfo.ini` next to the plugin (see `DiskInfo.ini.example`); it is read on every open.
-Keys `L`, `V`, `T`, `D` and the Text/Graphics button save their choice there.
+Keys `L`, `V`, `T`, `D`, `I`, the sort menu and the view switch save their choice there.
 
 | Key | Values |
 |---|---|
@@ -87,6 +88,7 @@ Keys `L`, `V`, `T`, `D` and the Text/Graphics button save their choice there.
 | `Exclude` | folder names the scan skips, e.g. `.git;node_modules` |
 | `DupMinKB` | duplicate search ignores smaller files (default 1024) |
 | `Sort` | `size`, `name`, `type` or `date` |
+| `Hints` | `1` (default) key hints and help lines shown, `0` folded into the (i) icon |
 | `Filter` | file masks, e.g. `*.jpg;*.png`; only these files are counted |
 | `FilterExclude` | `1`: count everything except the files matching `Filter` |
 | `AutoUpdate` | `1`: rescan by itself a few seconds after the folder stops changing (default `0`: a banner and F5) |
@@ -127,6 +129,13 @@ click a folder row to drill down.
 Not in the old plugins: volume and device information, NVMe health, duplicates, snapshots, size on disk, 32 and 64 bit builds, Ukrainian, Russian and English.
 
 ## Changes
+
+### 1.4.8
+- **+** The status bar is on every tab; the graphic / text switch moved there from the tab bar
+- **+** Hints can be folded: the (i) icon at the top right or key `I` hides / shows the key line and the help lines; `Hints=` in the ini
+- **~** The "Up" button sits next to the map, before the folder path, and is greyed at the top level instead of disappearing
+- **~** List heading "Folder contents: sort by size ▾": a click opens the sort menu
+- **-** Fixed: a click on the status bar went through to the list row scrolled under it
 
 ### 1.4.7
 - **+** Text view: the folder list uses the same aligned columns as the tables below it (percent, size, files or date); the name column follows the window width in all tables

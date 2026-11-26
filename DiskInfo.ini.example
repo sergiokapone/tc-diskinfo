@@ -18,5 +18,7 @@ Sort=size
 ;Filter=*.jpg;*.png
 ; FilterExclude: 1 = count everything EXCEPT the files that match Filter.
 FilterExclude=0
+; Hints: 1 (default) key hints and help lines are shown | 0 folded into the (i) icon.  In the viewer: key I or the (i) icon.
+Hints=1
 ; AutoUpdate: 0 (default) a banner says that the folder changed, F5 rescans | 1 rescan by itself a few seconds after the changes stop.
 AutoUpdate=0

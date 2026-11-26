@@ -1,4 +1,4 @@
-DiskInfo 1.4.7 - Lister plugin for Total Commander (32 and 64 bit)
+DiskInfo 1.4.8 - Lister plugin for Total Commander (32 and 64 bit)
 =================================================================
 
 Detailed disk information plus a DirSizeCalc-style space analyzer with an
@@ -57,11 +57,19 @@ LANGUAGE
 SETTINGS
   DiskInfo.ini (next to the plugin; see DiskInfo.ini.example): Language=auto|uk|ru|en,
   View=graphic|text, Theme=auto|dark|light, SizeOnDisk=0|1, Exclude=name1;name2,
-  Sort=size|name|type|date, Filter=*.jpg;*.png, FilterExclude=0|1, AutoUpdate=0|1.
-  The keys L, V, T, D and the Text/Graphics button save the choice there; the
+  Sort=size|name|type|date, Filter=*.jpg;*.png, FilterExclude=0|1, AutoUpdate=0|1,
+  Hints=1|0.
+  The keys L, V, T, D, I, the sort menu and the view switch save the choice there; the
   file is read on every open.
 
 CHANGES
+  1.4.8
+  [+] The status bar is on every tab; the graphic / text switch moved there from the tab bar.
+  [+] Hints can be folded: the (i) icon at the top right or key I; Hints= in the ini.
+  [~] The Up button sits next to the map and is greyed at the top level instead of disappearing.
+  [~] List heading "Folder contents: sort by size" with a triangle that opens the sort menu.
+  [-] Fixed: a click on the status bar went through to the list row scrolled under it.
+
   1.4.7
   [+] Text view: the folder list uses the same aligned columns as the tables below it (percent, size, files or
       date); the name column follows the window width in all tables.
