@@ -1,4 +1,4 @@
-# DiskInfo 1.4.8
+# DiskInfo 1.4.9
 
 **English** · [Українська](README_UA.md)
 
@@ -11,7 +11,7 @@ analysis (see [what they had and where it is here](#replaces-dirsizecalc-charts-
 disk/volume/device information, duplicates, snapshots and HTML/TXT reports. It does **not** replace the *DirSizeCalc*
 content plugin (WDX) that adds folder-size columns to the file panel: that is a different kind of plugin.
 
-**Download:** [Releases](https://github.com/sergiokapone/tc-diskinfo/releases) → `DiskInfo-1.4.8.zip`
+**Download:** [Releases](https://github.com/sergiokapone/tc-diskinfo/releases) → `DiskInfo-1.4.9.zip`
 (open it in Total Commander, press Enter, confirm — TC installs it).
 
 ![Analysis: treemap](screenshots/treemap-en.png)
@@ -68,7 +68,7 @@ Click on a path copies it; **Shift+click** shows the file in Explorer. In the fo
 
 ## Install
 
-1. Open `DiskInfo-1.4.8.zip` in Total Commander (Enter) and confirm, **or** Configuration → Options →
+1. Open `DiskInfo-1.4.9.zip` in Total Commander (Enter) and confirm, **or** Configuration → Options →
    Plugins → Lister plugins (WLX) → Add, pick `DiskInfo.wlx64`.
 2. To make it open on folders in Quick View, set its detect string to `EXT=""` and keep it above other
    plugins that also use `EXT=""` (e.g. VisualDirSize). The plugin refuses plain files unless you force it
@@ -129,6 +129,9 @@ click a folder row to drill down.
 Not in the old plugins: volume and device information, NVMe health, duplicates, snapshots, size on disk, 32 and 64 bit builds, Ukrainian, Russian and English.
 
 ## Changes
+
+### 1.4.9
+- **+** Version information in the DLLs (Properties > Details: version, author, copyright, description), for plugin managers
 
 ### 1.4.8
 - **+** The status bar is on every tab; the graphic / text switch moved there from the tab bar

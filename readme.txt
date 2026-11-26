@@ -1,4 +1,4 @@
-DiskInfo 1.4.8 - Lister plugin for Total Commander (32 and 64 bit)
+DiskInfo 1.4.9 - Lister plugin for Total Commander (32 and 64 bit)
 =================================================================
 
 Detailed disk information plus a DirSizeCalc-style space analyzer with an
@@ -63,6 +63,9 @@ SETTINGS
   file is read on every open.
 
 CHANGES
+  1.4.9
+  [+] Version information in the DLLs (Properties > Details), for plugin managers.
+
   1.4.8
   [+] The status bar is on every tab; the graphic / text switch moved there from the tab bar.
   [+] Hints can be folded: the (i) icon at the top right or key I; Hints= in the ini.
